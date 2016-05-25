@@ -1,0 +1,20 @@
+Description for different classes
+
+Controller.java:
+Main class to call all functions written in other classes and store databse credential information.
+
+Person.java:
+Abstract model class with basic personal information.
+
+Employee.Java:
+Employee model class. Contains variables and setter and getter functions. Extends Person class.
+
+EmployeeDBfunc.java:
+Contains three funcitons. Each functions register driver, connect to DB and excute query.
+
+EmployeeFunc.java:
+Used the functions in EmployeeDBfunc.java to store, get, update, and delete employee from database.
+
+JsonFunc.java:
+Contains two funcitons, which are write an employee object to json file and read from json file and store employee object to DB.
+Note: used GSON library.
